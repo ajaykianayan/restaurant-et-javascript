@@ -51,9 +51,16 @@ text-shadow: 2px 5px 5px rgba(112, 76, 76, 0.50);
 
 .button{
     
-    margin-top: 2500px;
-    margin-left: 4500px;
-    position: 0 auto;
+    margin-top: 1500px;
+    margin-left: 2100px;
+    width: 15%;
+    height: 250px;;
+    z-index: 3;
+    font-size: 160px;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Yellowtail' , 'sans-serif';
+    color: rgba(239, 227, 205, 0.84);
+    box-shadow: #6b6b66
 }
 
 
@@ -301,6 +308,18 @@ text-shadow: 2px 5px 5px rgba(112, 76, 76, 0.50);
 /* PAGE 3 */
 
 
+
+.menu2 .menu_items a{
+    position: sticky;
+    margin-right: 35px;
+    float: right;
+    color: #282310;
+    color: rgba(40, 35, 16, 0.49);
+    font-family: 'Yellowtail' , 'sans-serif';
+    font-size: 75px;
+}
+
+
 .body3{
     background: #e5ddbd;
     background-color: rgba(229, 221, 189, 0.49);
@@ -478,6 +497,18 @@ text-shadow: 2px 5px 5px rgba(112, 76, 76, 0.50);
     background-color: grey;
 }
 
+.menu3 .menu_items a{
+  
+    margin-left: 1115px;
+    margin-top: -500px;
+  
+    color: #282310;
+    color: rgba(40, 35, 16, 0.49);
+    font-family: 'Yellowtail' , 'sans-serif';
+    font-size: 25px;
+    
+}
+
 
 /* LISTE MENU PRIX PAGE 4 */
 
@@ -535,6 +566,7 @@ text-shadow: 2px 5px 5px rgba(112, 76, 76, 0.50);
 
 .tD01{
     position : sticky;
+    margin-bottom: -450px;
 }
 .tD02{
     position : sticky;
@@ -577,18 +609,24 @@ text-shadow: 2px 5px 5px rgba(112, 76, 76, 0.50);
    
 }
 
-.tile is-parent1{
-    width: 100%;
-    height: 50%;
-    margin-bottom: 3500px;
-  
-}
-
 
 
 /* FIN PRIX VINS PAGE 4 */
 
 /* PAGE 5 */
+
+.menu4 .menu_items a{
+    position: sticky;
+    margin-right: 35px;
+  
+    float: right;
+    color: #282310;
+    color: rgba(40, 35, 16, 0.49);
+    font-family: 'Yellowtail' , 'sans-serif';
+    font-size: 25px;
+}
+
+
 
 .background{
     background-color:#d4d4c9;
@@ -602,6 +640,8 @@ text-shadow: 2px 5px 5px rgba(112, 76, 76, 0.50);
     margin-left: 445px;
     font-size: 40px;
 }
+
+
 
 
 /*****carrousel 3d avec navigation*****/
@@ -730,6 +770,10 @@ height:20px}
 
 .mapmonde{
     background-color: rbga(0, 0, 0, 0);
+}
+
+.map{
+    margin-left: 250px;
 }
   
   
